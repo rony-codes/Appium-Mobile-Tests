@@ -3,7 +3,8 @@ name: Appium Mobile Tests
 on:
   push:
   workflow_dispatch:
-
+  schedule:
+    - cron: "30 20 * * *"
 jobs:
   appium-test:
     runs-on: ubuntu-latest
