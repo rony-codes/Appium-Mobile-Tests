@@ -35,7 +35,7 @@ jobs:
             adb devices
 
             echo "Installing HCJ APK..."
-            adb install apk/Hcj_Student_Jobseeker.apk
+            adb install apk/Hcj_Student_Jobseeker.apk.apk
 
             echo "Starting Appium..."
             npx appium > appium.log 2>&1 &
